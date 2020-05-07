@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './styles/index.scss';
 import Button, { ButtonType, ButtonSize } from './components/Button/button'
 
@@ -12,7 +11,8 @@ function App() {
        <Button size={ButtonSize.Large}>大小</Button>
        <Button disabled={true} btnType={ButtonType.Link} href={"http://www.baidu.com"}>Link </Button>
        <Button disabled={true} href={"http://www.baidu.com"}>disabled </Button>
-      </header>
+       <Button disabled={true}>disabled </Button>
+      </header> 
     </div>
   );
 }
