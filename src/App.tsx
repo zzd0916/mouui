@@ -4,6 +4,7 @@ import Button, { ButtonType, ButtonSize } from './components/Button/button'
 
 function App() {
   const a = 123;
+  const b = 456;
   return (
     <div className="App">
       <header className="App-header">
