@@ -3,7 +3,6 @@ import './styles/index.scss';
 import Button, { ButtonType, ButtonSize } from './components/Button/button'
 
 function App() {
-  const a = 123;
   return (
     <div className="App">
       <header className="App-header">
