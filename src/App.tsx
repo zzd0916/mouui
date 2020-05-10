@@ -6,11 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Button>默认</Button>
-       <Button btnType={ButtonType.Danger}>危险</Button>
-       <Button size={ButtonSize.Large}>大小</Button>
-       <Button disabled={true} btnType={ButtonType.Link} href={"http://www.baidu.com"}>Link </Button>
-       <Button disabled={true} href={"http://www.baidu.com"}>disabled </Button>
+       <Button autoFocus onClick={ (e) => alert(123)} >默认</Button>
+       <Button btnType={ButtonType.Primary} >Primary</Button>
+       <Button btnType={ButtonType.Danger}>Danger</Button>
+       <Button size={ButtonSize.Large}>Large button</Button>
+       <Button size={ButtonSize.Small}>Small button</Button>
+       <Button disabled={true} btnType={ButtonType.Link} href={"http://www.baidu.com"}> Disabled link</Button>
+       <Button disabled={false} btnType={ButtonType.Link}  href={"http://www.baidu.com"} target="_blank" >Link </Button>
        <Button disabled={true}>disabled </Button>
       </header> 
     </div>
